@@ -70,11 +70,3 @@ async def echo(message: types.Message):
 
     await message.answer(languages[user_lang]["invalid_link"])
 
-
-if __name__ == '__main__':
-    if is_tool("yt-dlp"):
-        logging.info("yt-dlp installed")
-        executor.start_polling(dp, skip_updates=True)
-    else:
-        logging.error("yt-dlp not installed! Run: sudo apt install yt-dlp")
-
