@@ -1,4 +1,4 @@
-API_TOKEN = ""
+API_TOKEN = "6544753832:AAGeWFvyQfqDEZJTDF2XS7q6X60VAxA08l0"
 
 languages = {
     "ru": {
